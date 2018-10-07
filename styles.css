@@ -1,0 +1,49 @@
+body {
+  font-family: Arial Black;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+header {
+    background-color: Maroon;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar {
+  width: device-width;
+  background-color: #FFD700;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 8px;
+  color: Maroon;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #DDA520;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
