@@ -19,26 +19,84 @@
     clear: both;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
 </style>
 
 </head>
 
 <body>
 
-  <header>
+<header>
     <a href="http://www.umn.edu"><img src="umnlogo.png" alt="UMN Logo" style="width:150px;height:100px;border:0;"></a><br>
     <p> PUBLIC SAFETY EMERGENCY COMMUNICATIONS CENTER </p>
-  </header>
+</header>
 
-  <p>FOR IMMEDIATE 911 EMERGENCIES ONLY<br></p>
-  <p>If you are able to dial 911, please do so instead.<br></p>
-  <p>Include your name, phone number, and exact location.<br></p>
+<div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="4662Project2.html">About</a>
+    <a href="https://publicsafety.umn.edu/">Public Safety</a>
+    <a href="https://publicsafety.umn.edu/home/security">University Security</a>
+    <a href="https://facilities.umn.edu/">Facilities Management</a>
+    <a href="4662Project6.html">Crime Locations</a>
 
-  <form action="/action_page.php">
-    <textarea name="message" rows="10" cols="30"></textarea>
-    <br>
-    <input type="submit" onclick="alert('Your local 911 Center has been contacted.')">
-  </form>
+</div>
+
+  <table>
+    <tr>
+      <th>DATE</th>
+      <th>TIME</th>
+      <th>CRIME TYPE</th>
+      <th>LOCATION</th>
+      <th>LOCATION VIEW</th>
+    </tr>
+    <tr>
+      <td>11-20-2018</td>
+      <td>10:25 AM</td>
+      <td>Theft</td>
+      <td><a href="https://www.google.com/maps/place/Carlson+School+of+Management/@44.970411,-93.2470137,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32d4181f14bb7:0x89edd06016084388!8m2!3d44.970411!4d-93.244825?hl=en">Carlson School of Management</a></td>
+      <td><a href="https://www.google.com/maps/@44.9703042,-93.244616,3a,75y,282.45h,92.3t/data=!3m8!1e1!3m6!1sAF1QipPp9mqPOn_RoyFzUj6KzIinXzrnJ9l_RgvBDutA!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPp9mqPOn_RoyFzUj6KzIinXzrnJ9l_RgvBDutA%3Dw203-h100-k-no-pi-0.43586242-ya271.33493-ro-0.3286421-fo100!7i8192!8i4096">CSOM</a></td>
+    </tr>
+    <tr>
+      <td>11-21-2018</td>
+      <td>01:23 AM</td>
+      <td>Theft</td>
+      <td><a href="https://www.google.com/maps/place/Rarig+Center/@44.9705174,-93.2421261,17.5z/data=!4m5!3m4!1s0x52b32d40fe5ea83d:0x42b2d43976a71c0a!8m2!3d44.9703314!4d-93.2424052">Rarig Center</a></td>
+      <td><a href="https://www.google.com/maps/@44.9703314,-93.2424052,3a,75y,331.47h,84.63t/data=!3m8!1e1!3m6!1sAF1QipPwI1P0ahyJvRbTkYbMY8rTdwlhSlDzxvV7qi-L!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPwI1P0ahyJvRbTkYbMY8rTdwlhSlDzxvV7qi-L%3Dw203-h100-k-no-pi-0-ya100.78481-ro-0-fo100!7i4096!8i2048">RARIG</a></td>
+    </tr>
+    <tr>
+      <td>11-21-2018</td>
+      <td>03:45 AM</td>
+      <td>Assault</td>
+      <td><a href="https://www.google.com/maps/place/Coffman+Memorial+Union,+Minneapolis,+MN+55455/@44.9725323,-93.2355657,18z/data=!4m5!3m4!1s0x52b32d3e00cf5e13:0xd3f29d2d2f0ac859!8m2!3d44.9727!4d-93.2354">Coffman Memorial Union</a></td>
+      <td><a href="https://www.google.com/maps/@44.9731646,-93.2353532,2a,75y,138.81h,87.04t/data=!3m7!1e1!3m5!1sTXpd6zAeNX_Xcpf8Um9Hxw!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3DTXpd6zAeNX_Xcpf8Um9Hxw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D197.2144%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656">CMU</a></td>
+    </tr>
+    <tr>
+      <td>11-21-2018</td>
+      <td>02:23 PM</td>
+      <td>Burglary</td>
+      <td><a href="https://www.google.com/maps/place/West+Bank+Skyway,+219+19th+Ave+S,+Minneapolis,+MN+55455/@44.9723789,-93.2430362,19.25z/data=!4m5!3m4!1s0x52b32d41d724f169:0xc17493124efbfd72!8m2!3d44.9724294!4d-93.243261">West Bank Skyway</a></td>
+      <td><a href="https://www.google.com/maps/@44.9725496,-93.2426474,2a,75y,260.33h,90t/data=!3m6!1e1!3m4!1s4gICiLnRrBH6MrFKCAYSeg!2e0!7i13312!8i6656">WBU</a></td>
+    </tr>
+    <tr>
+      <td>11-22-2018</td>
+      <td>11:21 AM</td>
+      <td>Fraud</td>
+      <td><a href="https://www.google.com/maps/place/Kenneth+H.+Keller+Hall,+200+Union+St+SE,+Minneapolis,+MN+55455/@44.9748556,-93.2312876,17.5z/data=!4m5!3m4!1s0x52b32d17b13a375b:0x6c04b616cb83af04!8m2!3d44.9747577!4d-93.2325142">Keller Hall</a></td>
+      <td><a href="https://www.google.com/maps/@44.9740944,-93.2321842,3a,75y,11.2h,93.68t/data=!3m8!1e1!3m6!1sAF1QipNBcD8zacIG1M-CxehE6nftXm-Au8W1D7zNK0sj!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNBcD8zacIG1M-CxehE6nftXm-Au8W1D7zNK0sj%3Dw203-h100-k-no-pi-0-ya258.7579-ro0-fo100!7i10240!8i5120">KELLER</a></td>
+    </tr>
+
+  </table>
 
 
 
